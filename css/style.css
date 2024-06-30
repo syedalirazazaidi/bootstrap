@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+:root {
+  --bs-dark-color: #1a1d20;
+  --bs-dark-primary: #1c1c1c;
+  --bs-main-color: #fff;
+ 
+}
+.vr {
+  width: 0.5px;
+  color: var( --bs-main-color);
+}
+.nav-link{
+    color: var(--bs-main-color)!important;
+    font-weight: bold;
+}
+
+/* Container div styling */
+.col-lg-4 {
+    margin-top: 1rem; /* 4 units of margin top */
+    margin-left: 1rem; /* 4 units of margin left */
+}
+
+/* Inner div to control flexbox */
+.col-lg-4 > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Container for the image */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* Custom styling to ensure uniform width for input fields */
+.uniform-width {
+    width: 100%; /* Ensure the input takes the full width of its container */
+    max-width: 300px; /* Set a maximum width for the input */
+}
+
+/* Ensure form controls have consistent appearance */
+.form-control {
+    flex: 1; /* Allow input to take remaining space */
+    min-width: 200px; /* Set a minimum width for the input */
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
+}
+
+/* Remove bottom margin of <p> tags */
+.form-group p {
+    margin-bottom: 0;
+    margin-right: 10px; /* Space between the label and input */
+}
+
+/* Flexbox for image and text */
+.col-lg-4 > div > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Image styling */
+.col-lg-4 img {
+    max-width: 50px;
+    margin-right: 1rem;
+}
+
+/* Text container styling */
+.col-lg-4 h4 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.col-lg-4 p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+/* Additional styling for the overall container */
+.col-lg-4 > div > p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
