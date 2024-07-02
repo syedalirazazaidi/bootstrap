@@ -284,6 +284,7 @@ li .anchor_tag_footer__css {
 
 
 /* for mobile */
+
 .navbar-toggler-icon{
-  color: red;
+  border: none;
 }
