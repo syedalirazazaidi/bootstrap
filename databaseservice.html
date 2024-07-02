@@ -105,28 +105,30 @@
 
     <div class="bg-color">
       <div class="container">
-        <div class="active">
-          <img
-            class="d-block w-100"
-            style="position: relative"
-            src="./images/database.jpg"
-            alt="First slide"
-          />
-          <div
-            style="
-              position: absolute;
-              top: 100px;
-              left: 130px;
-              top: 200px;
-              width: 30vw;
-            "
-          >
-            <h2>Database Services</h2>
-            <p>
-              With over 30 years experience designing databases our designers
-              have the expertise and experience to design your database to meet
-              current and changing needs.
-            </p>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                style="position: relative"
+                src="./images/database.jpg"
+                alt="First slide"
+              />
+              <div class="carousel__main__mobile">
+                <h2 class="carousel__header d-none d-sm-block">
+                  Database Services
+                </h2>
+                <p class="carousel__header__para d-none d-sm-block">
+                  With over 30 years experience designing databases our
+                  designers have the expertise and experience to design your
+                  database to meet current and changing needs.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -141,7 +143,7 @@
             <div class="col-sm-8">
               <div class="">
                 <div class="card-body">
-                  <p class="card-text" style="font-size: 16px">
+                  <p class="card-text paragraph_css">
                     With over 30 years experience designing databases Altair's
                     designers have the expertise and experience to design your
                     database to meet current and changing needs. All design
@@ -160,7 +162,7 @@
                 <div class="card-body">
                   <div class="image-container">
                     <img
-                      class="card-img-top w-50"
+                      class="card-img-top w-60"
                       src="./images/db.jpg"
                       alt="Card image cap"
                     />
@@ -174,99 +176,87 @@
     </div>
     <!-- end banner 2 -->
     <!--start  footer -->
-      <!--start  footer -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <!-- <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button> -->
-          <div >
-            <ul class="navbar-nav mb-2 mb-lg-0 mt-4">
-              <li class="nav-item">
-                <a
-                  class="nav-link active ms-auto anchor_tag_footer__css"
-                  aria-current="page"
-                  href="/index.html"
-                  >Home</a
-                >
-              </li>
-              <div class="mt-2" style="height: 25px"><div class="vr"></div></div>
-              <li class="nav-item">
-                <a
-                  class="nav-link active ms-auto anchor_tag_footer__css"
-                  aria-current="page"
-                  href="/about.html"
-                  >About</a
-                >
-              </li>
-              <div class="mt-2" style="height: 25px"><div class="vr"></div></div>
-              <li class="nav-item">
-                <a
-                  class="nav-link active ms-auto anchor_tag_footer__css"
-                  aria-current="page"
-                  href="/contact.html"
-                  >Contact</a
-                >
-              </li>
-              <div class="mt-2" style="height: 25px"><div class="vr"></div></div>
-              <li class="nav-item">
-                <a
-                  class="nav-link active ms-auto anchor_tag_footer__css"
-                  aria-current="page"
-                  href="/mobilesolution.html"
-                  >Mobile Solutions</a
-                >
-              </li>
-  
-              <div class="mt-2" style="height: 25px"><div class="vr"></div></div>
-  
-              <li class="nav-item">
-                <a
-                  class="nav-link active ms-auto anchor_tag_footer__css"
-                  aria-current="page"
-                  href="/databaseservice.html"
-                  >Database Services</a
-                >
-              </li>
-              <div class="mt-2" style="height: 25px">
-                <div class="vr"></div>
-              </div>
-  
-              <li class="nav-item">
-                <a
-                  class="nav-link active ms-auto anchor_tag_footer__css"
-                  aria-current="page"
-                  href="/internetstrategies.html"
-                  >Internet Strategies</a
-                >
-              </li>
-            </ul>
-          </div>
+    <!--start  footer -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <div>
+          <ul class="navbar-nav mb-2 mb-lg-0 mt-4">
+            <li class="nav-item">
+              <a
+                class="nav-link active ms-auto anchor_tag_footer__css"
+                aria-current="page"
+                href="/index.html"
+                >Home</a
+              >
+            </li>
+            <div class="mt-2" style="height: 25px"><div class="vr"></div></div>
+            <li class="nav-item">
+              <a
+                class="nav-link active ms-auto anchor_tag_footer__css"
+                aria-current="page"
+                href="/about.html"
+                >About</a
+              >
+            </li>
+            <div class="mt-2" style="height: 25px"><div class="vr"></div></div>
+            <li class="nav-item">
+              <a
+                class="nav-link active ms-auto anchor_tag_footer__css"
+                aria-current="page"
+                href="/contact.html"
+                >Contact</a
+              >
+            </li>
+            <div class="mt-2" style="height: 25px"><div class="vr"></div></div>
+            <li class="nav-item">
+              <a
+                class="nav-link active ms-auto anchor_tag_footer__css"
+                aria-current="page"
+                href="/mobilesolution.html"
+                >Mobile Solutions</a
+              >
+            </li>
+
+            <div class="mt-2" style="height: 25px"><div class="vr"></div></div>
+
+            <li class="nav-item">
+              <a
+                class="nav-link active ms-auto anchor_tag_footer__css"
+                aria-current="page"
+                href="/databaseservice.html"
+                >Database Services</a
+              >
+            </li>
+            <div class="mt-2" style="height: 25px">
+              <div class="vr"></div>
+            </div>
+
+            <li class="nav-item">
+              <a
+                class="nav-link active ms-auto anchor_tag_footer__css"
+                aria-current="page"
+                href="/internetstrategies.html"
+                >Internet Strategies</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
-  
-      <!-- end footer -->
-  
-      <!-- copyright -->
-      <div class="container mt-4 mb-2 footer__css">
-        <p>
-          Copyright © 2011-2024 Rodriguez Business Group. All Rights Reserved.
-          Contact Us at oscar@rodriguezbusinessgroup.com<br />
-  
-          Designed, Developed, and Hosted by Altair Technology Altair Technology,
-          Inc<br />
-  
-          Powered by the Altair Commerce Engine
-        </p>
       </div>
-  
+    </nav>
+
+    <!-- end footer -->
+
+    <!-- copyright -->
+    <div class="container mt-4 mb-2 footer__css">
+      <p>
+        Copyright © 2011-2024 Rodriguez Business Group. All Rights Reserved.
+        Contact Us at oscar@rodriguezbusinessgroup.com<br />
+
+        Designed, Developed, and Hosted by Altair Technology Altair Technology,
+        Inc<br />
+
+        Powered by the Altair Commerce Engine
+      </p>
+    </div>
   </body>
 </html>

@@ -16,6 +16,15 @@
   --bs-main-color-footer: #aaacb0;
 }
 
+.heading_h5 {
+  color: #2f353f;
+  font-size: 26.4px;
+  line-height: 33px;
+  letter-spacing: -1.32px;
+  word-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+}
 .vr {
   width: 0.5px;
   color: var(--bs-main-color);
@@ -262,7 +271,6 @@ li .sub__header_navlink {
 
 li .anchor_tag_footer__css {
   color: var(--bs-main-color-footer) !important;
-
   font-size: 11px;
   line-height: 18px;
   letter-spacing: normal;
@@ -282,9 +290,33 @@ li .anchor_tag_footer__css {
   font-style: normal;
 }
 
-
 /* for mobile */
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   border: none;
+}
+
+.head_paragraph {
+  color: #333333;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.form_css {
+  color: #333333;
+  font-size: 12px;
+  line-height: 18px;
+  word-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+}
+.paragraph_css {
+  color: #333333;
+  font-size: 12px;
+  line-height: 17px;
+  word-spacing: 0px;
 }
