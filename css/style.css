@@ -13,9 +13,7 @@
   --bs-main-color: #fff;
   --bs-main-color-navbar: #8cb2bd;
   --bs-main-color-card: #2f353f;
-  --bs-main-color-footer: #AAACB0;
-
-  
+  --bs-main-color-footer: #aaacb0;
 }
 
 .vr {
@@ -262,41 +260,30 @@ li .sub__header_navlink {
   font-weight: 700;
 }
 
+li .anchor_tag_footer__css {
+  color: var(--bs-main-color-footer) !important;
 
- li .anchor_tag_footer__css{
-    color: var(--bs-main-color-footer) !important;
-
-font-size:
-11px;
-line-height:
-18px;
-letter-spacing:
-normal;
-word-spacing:
-0px;
-font-weight:
-400;
-font-style:
-normal;
-text-align:
-left;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
 }
 
-.footer__css{
-  color:
-#989BA0;
-font-size:
-11px;
+.footer__css {
+  color: #989ba0;
+  font-size: 11px;
+  line-height: 17px;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+}
 
-line-height:
-17px;
-letter-spacing:
-normal;
-word-spacing:
-0px;
 
-font-weight:
-400;
-font-style:
-normal;
+/* for mobile */
+.navbar-toggler-icon{
+  color: red;
 }
