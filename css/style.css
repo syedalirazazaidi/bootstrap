@@ -1,230 +1,260 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans" sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans" sans-serif;
 }
 
 :root {
-    --bs-dark-color: #1a1d20;
-    --bs-dark-primary: #1c1c1c;
-    --bs-main-color: #fff;
-    --bs-main-color-navbar: #8cb2bd;
-    --bs-main-color-card: #2f353f;
+  --bs-dark-color: #1a1d20;
+  --bs-dark-primary: #1c1c1c;
+  --bs-main-color: #fff;
+  --bs-main-color-navbar: #8cb2bd;
+  --bs-main-color-card: #2f353f;
 }
 
 .vr {
-    width: 0.5px;
-    color: var(--bs-main-color);
+  width: 0.5px;
+  color: var(--bs-main-color);
 }
 
 .nav-link {
-    color: var(--bs-main-color) !important;
-    font-weight: bold;
+  color: var(--bs-main-color) !important;
+  font-weight: bold;
 }
 
 .container {
-    max-width: 70% !important;
+  max-width: 70% !important;
 }
 
 /* Container div styling */
 .col-lg-4 {
-    margin-top: 1rem;
-    /* 4 units of margin top */
-    margin-left: 1rem;
-    /* 4 units of margin left */
+  margin-top: 1rem;
+  /* 4 units of margin top */
+  margin-left: 1rem;
+  /* 4 units of margin left */
 }
 
 /* Inner div to control flexbox */
-.col-lg-4>div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.col-lg-4 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Container for the image */
 .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Custom styling to ensure uniform width for input fields */
 .uniform-width {
-    width: 100%;
-    /* Ensure the input takes the full width of its container */
-    max-width: 300px;
-    /* Set a maximum width for the input */
+  width: 100%;
+  /* Ensure the input takes the full width of its container */
+  max-width: 300px;
+  /* Set a maximum width for the input */
 }
 
 /* Ensure form controls have consistent appearance */
 .form-control {
-    flex: 1;
-    /* Allow input to take remaining space */
-    min-width: 200px;
-    /* Set a minimum width for the input */
+  flex: 1;
+  /* Allow input to take remaining space */
+  min-width: 200px;
+  /* Set a minimum width for the input */
 }
 
 .rodriguez__group img {
-    color: #ffffff;
-    font-size: 28.6px;
-    line-height: 35.75px;
-    letter-spacing: -1.43px;
-    word-spacing: 0px;
-    font-weight: 500;
-    font-style: normal;
-    text-indent: -999999px;
+  color: #ffffff;
+  font-size: 28.6px;
+  line-height: 35.75px;
+  letter-spacing: -1.43px;
+  word-spacing: 0px;
+  font-weight: 500;
+  font-style: normal;
+  text-indent: -999999px;
 }
 
 li .custom-nav-link {
-    color: #ffffff;
-    font-size: 11px;
-    line-height: 18px;
-    letter-spacing: normal;
-    word-spacing: 0px;
-    font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 400;
 }
 
 li .sub__header_navlink {
-    color: var(--bs-main-color-navbar) !important;
-    opacity: 0.8;
-    font-size: 13px;
-    line-height: 45px;
-    letter-spacing: normal;
-    word-spacing: 0px;
-    margin: 0px;
-    padding: 0px 20px;
-    font-weight: 400;
-    font-style: normal;
+  color: var(--bs-main-color-navbar) !important;
+  opacity: 0.8;
+  font-size: 13px;
+  line-height: 45px;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px 20px;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .form-group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
 /* Remove bottom margin of <p> tags */
 .form-group p {
-    margin-bottom: 0;
-    margin-right: 10px;
-    /* Space between the label and input */
+  margin-bottom: 0;
+  margin-right: 10px;
+  /* Space between the label and input */
 }
 
 /* Flexbox for image and text */
-.col-lg-4>div>div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+.col-lg-4 > div > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 /* Image styling */
 .col-lg-4 img {
-    max-width: 50px;
-    margin-right: 1rem;
+  max-width: 50px;
+  margin-right: 1rem;
 }
 
 /* Text container styling */
 .col-lg-4 h4 {
-    margin: 0;
-    font-size: 1.25rem;
+  margin: 0;
+  font-size: 1.25rem;
 }
 
 .col-lg-4 p {
-    margin: 0.5rem 0;
-    font-size: 1rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
 }
 
-.col-lg-4>div>p {
-    margin-top: 1rem;
-    font-size: 0.9rem;
-    text-align: center;
+.col-lg-4 > div > p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 .carousel__main__mobile {
-    position: absolute;
-    top: 47px;
-    left: 110px;
-    width: 25vw;
+  position: absolute;
+  top: 47px;
+  left: 110px;
+  width: 25vw;
 }
 
 .carousel__header {
-    color: #2f353f;
-    font-size: 44px;
-    font-weight: 600;
-    font-style: italic;
-    font-variant: normal;
-    letter-spacing: -4.4px;
+  color: #2f353f;
+  font-size: 44px;
+  font-weight: 600;
+  font-style: italic;
+  font-variant: normal;
+  letter-spacing: -4.4px;
 }
 
 .carousel__main__medical img {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .carousel__header__para {
-    color: #555555;
-    font-size: 14px;
-    line-height: 22px;
-    letter-spacing: normal;
-    font-weight: 400;
-    font-style: normal;
-    text-align: start;
+  color: #555555;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-weight: 400;
+  font-style: normal;
+  text-align: start;
 }
 
 .carousel__main__medical {
-    position: absolute;
-    top: 54px;
-    left: 110px;
-    width: 25vw;
+  position: absolute;
+  top: 54px;
+  left: 110px;
+  width: 25vw;
 }
 
 .carousel__main__internet {
-    position: absolute;
-    top: 80px;
-    left: 120px;
-    width: 30vw;
+  position: absolute;
+  top: 80px;
+  left: 120px;
+  width: 30vw;
 }
 
 .carousel__main__internet img {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .carousel__main__database {
-    position: absolute;
-    left: 105px;
-    top: 65px;
-    width: 30vw;
+  position: absolute;
+  left: 105px;
+  top: 65px;
+  width: 30vw;
 }
 
 .carousel__main__database img {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .card__title__main {
-    color: var(--bs-main-color-card) !important;
-    margin-left: 20px;
-    font-size: 26.4px;
-    line-height: 33px;
-    letter-spacing: -1.32px;
-    word-spacing: 0px;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: none;
+  color: var(--bs-main-color-card) !important;
+  margin-left: 20px;
+  font-size: 26.4px;
+  line-height: 33px;
+  letter-spacing: -1.32px;
+  word-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
 }
 
 .card__title__paragraph {
-    color: #333333;
-    font-size:12px;
-    line-height: 17px;
-    letter-spacing:  normal;
-    word-spacing: 0px;
-    font-weight:  400;
-    font-style:  normal;
-    margin-left: 20px;
+  color: #333333;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 20px;
+}
 
-
+.mobile__solution__css {
+  color: #333333;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: -18px;
+}
+.mobile__solution__css__para {
+  color: #333333;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -13px;
+  margin-left: 6px;
+}
+.banner_css {
+  color: #698693;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 700;
 }
