@@ -13,6 +13,9 @@
   --bs-main-color: #fff;
   --bs-main-color-navbar: #8cb2bd;
   --bs-main-color-card: #2f353f;
+  --bs-main-color-footer: #AAACB0;
+
+  
 }
 
 .vr {
@@ -257,4 +260,24 @@ li .sub__header_navlink {
   letter-spacing: normal;
   word-spacing: 0px;
   font-weight: 700;
+}
+
+
+ li .anchor_tag_footer__css{
+    color: var(--bs-main-color-footer) !important;
+
+font-size:
+11px;
+line-height:
+18px;
+letter-spacing:
+normal;
+word-spacing:
+0px;
+font-weight:
+400;
+font-style:
+normal;
+text-align:
+left;
 }
