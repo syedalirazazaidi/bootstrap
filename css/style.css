@@ -281,3 +281,22 @@ normal;
 text-align:
 left;
 }
+
+.footer__css{
+  color:
+#989BA0;
+font-size:
+11px;
+
+line-height:
+17px;
+letter-spacing:
+normal;
+word-spacing:
+0px;
+
+font-weight:
+400;
+font-style:
+normal;
+}
