@@ -10,6 +10,7 @@
   --bs-dark-color: #1a1d20;
   --bs-dark-primary: #1c1c1c;
   --bs-main-color: #fff;
+  --bs-main-color-navbar: #8cb2bd;
 }
 .vr {
   width: 0.5px;
@@ -62,6 +63,18 @@ li .custom-nav-link {
   letter-spacing: normal;
   word-spacing: 0px;
   font-weight: 400;
+}
+li .sub__header_navlink {
+  color: var(--bs-main-color-navbar) !important;
+  opacity: 0.8;
+  font-size: 13px;
+  line-height: 45px;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px 20px;
+  font-weight: 400;
+  font-style: normal;
 }
 .form-group {
   display: flex;
