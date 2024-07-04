@@ -306,6 +306,9 @@ li .anchor_tag_footer__css {
   font-style: normal;
 }
 
+.collapse {
+  transition: height 0.4s ease;
+}
 .form_css {
   color: #333333;
   font-size: 12px;
@@ -321,6 +324,15 @@ li .anchor_tag_footer__css {
   word-spacing: 0px;
 }
 
+.navbar-toggler-icon {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.navbar-toggler-icon.active {
+  border: none;
+}
+
 /* Mobile view  */
 
 @media (max-width: 768px) {
@@ -332,9 +344,15 @@ li .anchor_tag_footer__css {
 @media (max-width: 768px) {
   .container .rodriguez__group {
     width: 200px;
+    padding-bottom: 10px;
   }
 }
 
+@media (max-width: 768px) {
+  li .sub__header_navlink {
+    padding:0;
+  }
+}
 
 @media (max-width: 768px) {
   .navbar-nav {
@@ -357,12 +375,4 @@ li .anchor_tag_footer__css {
   .navbar-nav .vr {
     display: none;
   }
-}
-.navbar-toggler-icon {
-  background-color: white;
-  border-radius: 4px;
-}
-
-.navbar-toggler-icon.active {
-  border: none;
 }
