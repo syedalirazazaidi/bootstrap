@@ -176,7 +176,6 @@ li .sub__header_navlink {
   width: 25vw;
 }
 
-
 .carousel__main__internet {
   position: absolute;
   top: 80px;
@@ -201,13 +200,14 @@ li .sub__header_navlink {
 
 .card__title__main {
   color: var(--bs-main-color-card) !important;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   font-size: 26.4px;
   line-height: 33px;
   letter-spacing: -1.32px;
   word-spacing: 0px;
   font-weight: 400;
   font-style: normal;
+  margin-top: 8px;
   text-transform: none;
 }
 
@@ -220,6 +220,55 @@ li .sub__header_navlink {
   font-weight: 400;
   font-style: normal;
   margin-left: 20px;
+}
+
+main {
+  width: 80%;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  min-height: 250px;
+  background-color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+#main table {
+  border: 0px solid #fff;
+}
+
+table {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+table {
+  background: #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin: 0 0 18px;
+  border: 1px solid #ddd;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table tbody tr td {
+  color: #333;
+  padding: 9px 10px;
+  vertical-align: top;
+  border: none;
+}
+
+table thead tr th,
+table tfoot tr th,
+table tbody tr td,
+table tr td,
+table tfoot tr td {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
 }
 
 .mobile__solution__css {
@@ -237,17 +286,15 @@ li .sub__header_navlink {
   text-justify: inter-word;
   padding-left: 5px;
 }
-.mobile__solution__css p{
+.mobile__solution__css p {
   margin-left: 43px;
   margin-top: -30px;
   text-align: justify;
   text-justify: inter-word;
   padding-left: 5px;
 }
-.mobile__solution__css__para p{
+.mobile__solution__css__para p {
   margin-top: -30px;
-
-
 }
 .mobile__solution__css__para {
   color: #333333;
@@ -260,6 +307,15 @@ li .sub__header_navlink {
   margin-top: -13px;
   margin-left: 6px;
 }
+.HpSide__flex {
+  display: flex;
+  justify-items: center;
+  justify-content: start;
+  gap: 7px;
+}
+.HpSide__flex h4 {
+  margin-top: 10px;
+}
 .banner_css {
   color: #698693;
   font-size: 13px;
@@ -268,7 +324,9 @@ li .sub__header_navlink {
   word-spacing: 0px;
   font-weight: 700;
 }
-
+h4 .banner_css {
+  background-color: green !important;
+}
 li .anchor_tag_footer__css {
   color: var(--bs-main-color-footer) !important;
   font-size: 11px;
@@ -333,7 +391,21 @@ li .anchor_tag_footer__css {
   border: none;
 }
 
+.table__css__td {
+  width: 70%;
+}
+.table__css__td_css {
+  width: 30%;
+}
 /* Mobile view  */
+@media (max-width: 768px) {
+  .table__css__td {
+    width: 100%;
+  }
+  .table__css__td_css {
+    width: 100%;
+  }
+}
 .form-group {
   display: flex;
   justify-content: flex-end;
@@ -355,22 +427,33 @@ li .anchor_tag_footer__css {
 }
 
 @media (max-width: 768px) {
+  .table__css {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
   .form-control.uniform-width {
-      width: 100%;
-      max-width: none; 
+    width: 100%;
+    max-width: none;
   }
   .label-wrapper {
-      flex: 1;
-      display: flex;
-      justify-content: flex-start;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
   }
   .label-wrapper p {
-      margin-bottom: 0.5rem;
-      width: 100%;
-      font-size: 13px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 13px;
   }
   .input-wrapper input::placeholder {
-    color: #999; 
+    color: #999;
     font-size: 13px;
   }
 }
@@ -390,7 +473,7 @@ li .anchor_tag_footer__css {
 
 @media (max-width: 768px) {
   li .sub__header_navlink {
-    padding:0;
+    padding: 0;
   }
 }
 
