@@ -360,6 +360,7 @@ li .anchor_tag_footer__css {
     flex-direction: row !important;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
   }
 
