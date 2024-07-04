@@ -321,14 +321,20 @@ li .anchor_tag_footer__css {
   word-spacing: 0px;
 }
 
-
- /* Mobile view  */
+/* Mobile view  */
 
 @media (max-width: 768px) {
   .container {
     max-width: 100% !important;
   }
 }
+
+@media (max-width: 768px) {
+  .container .rodriguez__group {
+    width: 200px;
+  }
+}
+
 
 @media (max-width: 768px) {
   .navbar-nav {
