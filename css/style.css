@@ -355,6 +355,13 @@ li .anchor_tag_footer__css {
 }
 
 @media (max-width: 768px) {
+  .uniform-width {
+    width: 100%;
+    max-width: 230px;
+  }
+}
+
+@media (max-width: 768px) {
   .navbar-nav {
     display: flex !important;
     flex-direction: row !important;
