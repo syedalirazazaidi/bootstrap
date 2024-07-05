@@ -145,6 +145,34 @@ li .sub__header_navlink {
   left: 110px;
   width: 25vw;
 }
+@media (max-width: 768px) {
+  .carousel-item .img_css {
+    height: 190px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel__main__mobile h2 {
+    position: absolute;
+    top: -20px;
+    left: -60px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 800;
+  }
+  .carousel__main__mobile p {
+    position: relative;
+    top: 10px;
+    left: -60px;
+    font-size: 10px;
+    width: 180px;
+    letter-spacing: 0px;
+    line-height: 0.9;
+  }
+  .carousel__main__mobile img {
+    width: 90px;
+    margin-top: 20px;
+  }
+}
 
 .carousel__header {
   color: #2f353f;
