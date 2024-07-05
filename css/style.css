@@ -162,7 +162,7 @@ li .sub__header_navlink {
   .carousel__main__mobile p {
     position: relative;
     top: 10px;
-    left: -60px;
+    left: -63px;
     font-size: 10px;
     width: 162px;
     letter-spacing: 0px;
@@ -171,7 +171,7 @@ li .sub__header_navlink {
   .carousel__main__mobile img {
     width: 90px;
     margin-top: 30px;
-    margin-left: -36px;
+    margin-left: -40px;
   }
 }
 
